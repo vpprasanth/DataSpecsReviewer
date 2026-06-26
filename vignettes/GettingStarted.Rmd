@@ -1,0 +1,13 @@
+---
+title: "Getting Started with DataSpecsReviewer"
+output: html_document
+vignette: >
+  %\VignetteIndexEntry{Getting Started with DataSpecsReviewer}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r eval=FALSE}
+library(DataSpecsReviewer)
+data_review()
+```

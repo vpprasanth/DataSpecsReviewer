@@ -1,0 +1,25 @@
+utils::globalVariables(
+  c(
+    "data_id",
+    "dataset",
+    "var_name",
+    "label",
+    "type",
+    "category_values",
+    "var_upper",
+    "dataset_count",
+    "variable_name",
+    "value",
+    "pct",
+    "missing_pct",
+    "variable",
+    "severity",
+    "check_type",
+    "issue_count",
+    "observations",
+    "unique_index_values",
+    "variables",
+    "datasets_containing_variable",
+    "spec"
+  )
+)

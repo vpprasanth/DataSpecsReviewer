@@ -1,0 +1,44 @@
+Package: DataSpecsReviewer
+Type: Package
+Title: Dataset Specification and Data Quality Review Toolkit
+Version: 1.0.0
+Authors@R:
+    person(
+      given = "Prasanth",
+      family = "V.P",
+      email = "prasanth.stat@gmail.com",
+      role = c("aut", "cre")
+    )
+Description: Provides tools for generating dataset specification workbooks and performing data quality reviews for SAS, Excel, XLSB, and CSV datasets.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 4.1.0)
+Imports:
+    shiny,
+    dplyr,
+    purrr,
+    tibble,
+    tidyr,
+    stringr,
+    readxl,
+    haven,
+    openxlsx
+Suggests:
+    DT,
+    bslib,
+    ggplot2,
+    rlang,
+    readr,
+    readxlsb,
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+URL: https://github.com/vpprasanth/DataSpecsReviewer
+BugReports: https://github.com/vpprasanth/DataSpecsReviewer/issues
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Config/roxygen2/version: 8.0.0
+VignetteBuilder: knitr
+

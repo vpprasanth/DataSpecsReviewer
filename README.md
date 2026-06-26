@@ -39,6 +39,7 @@ data_review()
 
 ## Credits
 
-Original SAS macro programmer: Jeffrey Meyers  
-Package and Shiny app author: Prasanth V.P.  
+The DataSpecsReviewer package was inspired by Jeffrey Meyers’ SAS-based macro for summarizing data.
+
+Package and Shiny App Author: Prasanth V.P.
 Email: prasanth.stat@gmail.com

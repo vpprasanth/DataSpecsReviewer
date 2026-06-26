@@ -1,0 +1,30 @@
+# R history files
+.Rhistory
+.Rapp.history
+
+# R data files
+*.RData
+*.rda
+*.rds
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# Build and check output
+.Rcheck/
+*.tar.gz
+
+# Vignettes and documentation
+inst/doc/
+doc/
+
+# Logs and temporary files
+*.log
+*.out
+*.aux
+*.toc
+
+# OS-specific files
+.DS_Store
+Thumbs.db

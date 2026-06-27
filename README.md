@@ -13,7 +13,9 @@ remotes::install_github("vpprasanth/DataSpecsReviewer")
 
 ```r
 library(DataSpecsReviewer)
-data_review()
+data_review() # or
+dsr() # or
+DSR()
 ```
 
 ## Features
